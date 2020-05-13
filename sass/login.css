@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f5f5f5;
+  height: 100%;
+  width: 100%;
+  display: block; }
+  body #outer {
+    display: table;
+    position: static;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: url(../static/pic.png) no-repeat 50%; }
+    body #outer #middle {
+      display: table-cell;
+      vertical-align: middle;
+      position: static;
+      top: 50%; }
+      body #outer #middle #inner {
+        position: relative;
+        top: -50%;
+        width: 1066px;
+        height: 715px;
+        background: url(../static/word.png) no-repeat 94px 154px;
+        margin-left: auto;
+        margin-right: auto; }
+        body #outer #middle #inner .control {
+          width: 343px;
+          height: 520px;
+          background: url(../static/bg_middle.png) repeat-y 50%;
+          left: 689px;
+          top: 105px; }
+          body #outer #middle #inner .control .top {
+            width: 343px;
+            height: 11px;
+            left: 0;
+            top: -11px;
+            background: url(../static/bg_head.png) no-repeat 50%; }
+          body #outer #middle #inner .control .bottom {
+            width: 343px;
+            height: 12px;
+            left: 0;
+            bottom: -12px;
+            background: url(../static/bg_bottom.png) no-repeat 50%; }
+          body #outer #middle #inner .control .content .pt1 {
+            padding-top: 1px; }
+          body #outer #middle #inner .control .content .pr {
+            position: relative; }
+          body #outer #middle #inner .control .content .tc {
+            text-align: center; }
+          body #outer #middle #inner .control .content header {
+            height: 223px;
+            display: block; }
+            body #outer #middle #inner .control .content header .mt30 {
+              margin-top: 30px;
+              display: inline-block;
+              zoom: 1; }
+            body #outer #middle #inner .control .content header h1 {
+              background: url(../static/logo.png) no-repeat 0;
+              width: 110px;
+              height: 110px; }
+            body #outer #middle #inner .control .content header p {
+              width: 100%;
+              line-height: 40px;
+              height: 30px;
+              margin-top: 20px; }
+              body #outer #middle #inner .control .content header p .fl {
+                color: #ff9000;
+                width: 100px;
+                text-decoration: none;
+                float: left;
+                vertical-align: top;
+                font-size: 20px;
+                margin-left: 20px;
+                cursor: pointer; }
+              body #outer #middle #inner .control .content header p .fr {
+                color: #888;
+                width: 100px;
+                text-decoration: none;
+                float: right;
+                vertical-align: top;
+                font-size: 20px;
+                margin-right: 20px;
+                cursor: pointer; }
+          body #outer #middle #inner .control .content section .loginbox {
+            width: 100%;
+            top: 0;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center; }
+            body #outer #middle #inner .control .content section .loginbox input::-webkit-input-placeholder {
+              color: #888; }
+            body #outer #middle #inner .control .content section .loginbox input {
+              width: 265px;
+              padding: 0 10px;
+              background-color: transparent;
+              font-size: 14px;
+              border: 1px solid #d8d8d8;
+              border-radius: 5px;
+              outline: none;
+              color: #888; }
+            body #outer #middle #inner .control .content section .loginbox .usenamep .usename {
+              height: 44px;
+              line-height: 44px;
+              vertical-align: middle; }
+            body #outer #middle #inner .control .content section .loginbox .usepassp {
+              margin-top: 30px; }
+              body #outer #middle #inner .control .content section .loginbox .usepassp .usepass {
+                height: 44px;
+                line-height: 44px;
+                vertical-align: middle; }
+            body #outer #middle #inner .control .content section .loginbox .freelogin {
+              font-size: 14px;
+              color: #bbb;
+              line-height: 19px;
+              margin-top: 30px; }
+              body #outer #middle #inner .control .content section .loginbox .freelogin input {
+                float: left;
+                margin-left: 30px;
+                width: 18px;
+                height: 19px;
+                display: inline-block;
+                zoom: 1; }
+              body #outer #middle #inner .control .content section .loginbox .freelogin label {
+                float: left;
+                margin-left: 5px; }
+              body #outer #middle #inner .control .content section .loginbox .freelogin a {
+                margin-left: 50px;
+                text-decoration: none;
+                color: #bbb; }
+            body #outer #middle #inner .control .content section .loginbox .loginp {
+              margin-top: 20px;
+              text-align: center; }
+              body #outer #middle #inner .control .content section .loginbox .loginp .login {
+                color: #fff;
+                display: inline-block;
+                zoom: 1;
+                text-align: center;
+                width: 280px;
+                height: 46px;
+                border: none;
+                font-size: 18px;
+                border-radius: 5px;
+                background-color: #ff9000;
+                outline: none;
+                cursor: pointer; }
+          body #outer #middle #inner .control .content section .zhucebox {
+            display: none;
+            width: 100%;
+            top: 0;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center; }
+            body #outer #middle #inner .control .content section .zhucebox input::-webkit-input-placeholder {
+              color: #888; }
+            body #outer #middle #inner .control .content section .zhucebox input {
+              width: 265px;
+              padding: 0 10px;
+              background-color: transparent;
+              font-size: 14px;
+              border: 1px solid #d8d8d8;
+              border-radius: 5px;
+              outline: none;
+              color: #888; }
+            body #outer #middle #inner .control .content section .zhucebox .usenamep {
+              position: relative; }
+              body #outer #middle #inner .control .content section .zhucebox .usenamep .usename {
+                height: 44px;
+                line-height: 44px;
+                vertical-align: middle; }
+              body #outer #middle #inner .control .content section .zhucebox .usenamep span {
+                display: none;
+                position: absolute;
+                right: 10px;
+                top: 15px;
+                font-size: 12px;
+                color: red; }
+            body #outer #middle #inner .control .content section .zhucebox .usepassp {
+              margin-top: 30px;
+              position: relative; }
+              body #outer #middle #inner .control .content section .zhucebox .usepassp .usepass {
+                height: 44px;
+                line-height: 44px;
+                vertical-align: middle; }
+              body #outer #middle #inner .control .content section .zhucebox .usepassp span {
+                display: none;
+                position: absolute;
+                right: 10px;
+                top: 15px;
+                font-size: 12px;
+                color: red; }
+            body #outer #middle #inner .control .content section .zhucebox .zhucep {
+              margin-top: 20px;
+              text-align: center; }
+              body #outer #middle #inner .control .content section .zhucebox .zhucep .zhuce {
+                color: #fff;
+                display: inline-block;
+                zoom: 1;
+                text-align: center;
+                width: 280px;
+                height: 46px;
+                border: none;
+                font-size: 18px;
+                border-radius: 5px;
+                background-color: #ff9000;
+                outline: none;
+                cursor: pointer; }
+        body #outer #middle #inner .pa {
+          position: absolute; }

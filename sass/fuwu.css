@@ -1,0 +1,678 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #f1f1f1; }
+
+.header {
+  position: relative;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background: #fff; }
+  .header .g_hd {
+    width: 100%;
+    height: 103px;
+    border-bottom: #d5d5d5 1px solid;
+    box-shadow: 0 1px 1px #ccc;
+    position: relative;
+    z-index: 99;
+    transform: translateZ(0); }
+    .header .g_hd .g_hd_contain {
+      width: 1190px;
+      margin: 0 auto;
+      height: 103px; }
+      .header .g_hd .g_hd_contain .g_logo {
+        display: block;
+        width: 200px;
+        height: 51px;
+        overflow: hidden;
+        margin-top: 25px;
+        background: url(../static/main.png);
+        float: left; }
+      .header .g_hd .g_hd_contain .g_hd_main {
+        width: 850px;
+        float: right;
+        height: 103px; }
+        .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top {
+          width: 100%;
+          float: left;
+          text-align: right;
+          color: #9f9f9f;
+          padding-top: 10px;
+          line-height: 20px;
+          margin-bottom: 23px;
+          position: relative; }
+          .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .loginReg, .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .cart {
+            margin-right: 5px;
+            position: relative; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .loginReg a, .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .cart a {
+              color: #9f9f9f;
+              font-size: 12px;
+              position: relative; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .loginReg span, .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .cart span {
+              color: #ddd;
+              line-height: 20px;
+              font-size: 12px;
+              margin: 0 5px; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .loginReg .cart_a, .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .cart .cart_a {
+              padding-left: 28px; }
+              .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .loginReg .cart_a b, .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .cart .cart_a b {
+                background: url(../static/main.png);
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                left: 10px;
+                top: 0;
+                background-position: -216px -4px; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .loginReg a:hover, .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .cart a:hover {
+              color: #ef4222; }
+              .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .loginReg a:hover b, .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_top .cart a:hover b {
+                background-position: -262px -4px; }
+        .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom {
+          height: 48px;
+          width: 100%;
+          float: left; }
+          .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom ul {
+            list-style: none; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom ul li {
+              float: left;
+              height: 48px; }
+              .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom ul li a {
+                padding: 0 25px;
+                color: #000;
+                font-size: 16px; }
+              .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom ul li a:hover {
+                color: #ef4222; }
+          .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom .search {
+            width: 180px;
+            float: right; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom .search input {
+              display: block;
+              float: left;
+              height: 25px;
+              color: #999999;
+              line-height: 25px;
+              outline: none; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom .search .search_l {
+              border: 1px solid #ddd;
+              padding-left: 5px;
+              width: 140px;
+              border-right: 0; }
+            .header .g_hd .g_hd_contain .g_hd_main .g_hd_main_bottom .search .search_r {
+              background: url(../static/main.png);
+              background-position: -236px 2px;
+              cursor: pointer;
+              width: 25px;
+              height: 27px;
+              border: 1px solid #ddd;
+              border-left: 0; }
+
+.sl_wrapper .help_content {
+  height: auto;
+  margin: 0 auto;
+  padding: 40px 0; }
+  .sl_wrapper .help_content .help_nav {
+    width: 1192px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .sl_wrapper .help_content .help_nav .help_nav_fixed {
+      border-bottom: 0;
+      border-left: solid #ddd 1px;
+      display: block;
+      height: 150px; }
+      .sl_wrapper .help_content .help_nav .help_nav_fixed li {
+        width: 169px;
+        height: 149px;
+        float: left;
+        background: #fff;
+        font-size: 16px;
+        color: #000;
+        line-height: 450%;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        display: list-item; }
+        .sl_wrapper .help_content .help_nav .help_nav_fixed li a {
+          text-decoration: none;
+          outline: none;
+          color: #000;
+          border: 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a span {
+            cursor: pointer; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .icont {
+            width: 63px;
+            height: 63px;
+            display: block;
+            background: url(../static/helpsirite.png) 0 0 no-repeat;
+            position: absolute;
+            left: 52px;
+            top: 34px; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n1 {
+            background-position: -257px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n2 {
+            background-position: -322px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n3 {
+            background-position: -384px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n4 {
+            background-position: -448px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n5 {
+            background-position: -258px -127px; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n6 {
+            background-position: -324px -127px; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n7 {
+            background-position: -386px -125px; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n1:hover {
+            background-position: -5px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n2:hover {
+            background-position: -70px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n3:hover {
+            background-position: -132px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n4:hover {
+            background-position: -196px 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n5:hover {
+            background-position: -6px -127px; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n6:hover {
+            background-position: -72px -127px; }
+          .sl_wrapper .help_content .help_nav .help_nav_fixed li a .ico_n7:hover {
+            background-position: -134px -125px; }
+    .sl_wrapper .help_content .help_nav .help_nav_t {
+      width: 1192px;
+      height: auto;
+      overflow: hidden;
+      border-left: solid #ddd 1px;
+      margin-bottom: 20px; }
+      .sl_wrapper .help_content .help_nav .help_nav_t li {
+        width: 169px;
+        height: 149px;
+        float: left;
+        background: #fff;
+        font-size: 16px;
+        color: #000;
+        line-height: 450%;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        display: list-item; }
+        .sl_wrapper .help_content .help_nav .help_nav_t li a {
+          text-decoration: none;
+          outline: none;
+          color: #000;
+          border: 0; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a span {
+            cursor: pointer; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .icont {
+            width: 63px;
+            height: 63px;
+            display: block;
+            background: url(../static/helpsirite.png) 0 0 no-repeat;
+            position: absolute;
+            left: 52px;
+            top: 34px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav00 {
+            background-position: -259px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav01 {
+            background-position: -317px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav02 {
+            background-position: -382px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav03 {
+            background-position: -448px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav04 {
+            background-position: -447px -126px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav05 {
+            background-position: -258px -188px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav06 {
+            background-position: -321px -186px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav00:hover {
+            background-position: -7px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav01:hover {
+            background-position: -65px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav02:hover {
+            background-position: -130px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav03:hover {
+            background-position: -196px -63px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav04:hover {
+            background-position: -195px -126px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav05:hover {
+            background-position: -6px -188px; }
+          .sl_wrapper .help_content .help_nav .help_nav_t li a .nav06:hover {
+            background-position: -69px -186px; }
+    .sl_wrapper .help_content .help_nav .c {
+      display: block; }
+    .sl_wrapper .help_content .help_nav .C::after {
+      content: ".";
+      display: block;
+      font-size: 0;
+      line-height: 0;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .sl_wrapper .help_content .help_nav ul {
+      list-style: none; }
+      .sl_wrapper .help_content .help_nav ul li {
+        list-style: none;
+        border-top: solid #ddd 1px;
+        border-right: solid #ddd 1px; }
+  .sl_wrapper .help_content .help_cont_m {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 30px;
+    height: 664px; }
+    .sl_wrapper .help_content .help_cont_m .help_list {
+      width: 71.5%;
+      border-right: #ddd 1px solid;
+      height: auto;
+      height: 664px;
+      position: relative; }
+      .sl_wrapper .help_content .help_cont_m .help_list h2 {
+        width: auto;
+        height: 34px;
+        line-height: 34px;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        top: 10px;
+        left: 30px; }
+      .sl_wrapper .help_content .help_cont_m .help_list .help_list_c {
+        padding: 0 30px;
+        min-height: 550px;
+        border: none;
+        width: auto;
+        height: auto; }
+        .sl_wrapper .help_content .help_cont_m .help_list .help_list_c dt {
+          padding: 15px 0 0;
+          padding-left: 118px;
+          border-bottom: #f5f5f5 2px solid;
+          width: auto;
+          height: auto; }
+          .sl_wrapper .help_content .help_cont_m .help_list .help_list_c dt a {
+            display: inline-block;
+            height: 35px;
+            line-height: 22px;
+            padding: 0 16px;
+            font-size: 14px;
+            text-decoration: none;
+            outline: 0;
+            border: 0;
+            color: #000;
+            cursor: pointer; }
+          .sl_wrapper .help_content .help_cont_m .help_list .help_list_c dt a.hover {
+            border-bottom: solid 2px #ef4222;
+            color: #000; }
+        .sl_wrapper .help_content .help_cont_m .help_list .help_list_c dd {
+          font-size: 14px;
+          line-height: 150%;
+          padding: 10px;
+          width: auto;
+          height: auto;
+          border-bottom: #f5f5f5 1px solid;
+          display: block; }
+          .sl_wrapper .help_content .help_cont_m .help_list .help_list_c dd a {
+            text-decoration: none;
+            outline: none;
+            color: #000;
+            cursor: pointer; }
+        .sl_wrapper .help_content .help_cont_m .help_list .help_list_c a:hover {
+          color: #ef4222; }
+    .sl_wrapper .help_content .help_cont_m .fl {
+      float: left; }
+    .sl_wrapper .help_content .help_cont_m .help_sider_cont {
+      width: 23%;
+      padding: 28px; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont h2 {
+        font-size: 18px;
+        font-weight: normal; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont .c {
+        display: block; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont .help_sider_gmzx {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 60px; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .help_sider_gmzx dt {
+          background: url(../static/helpsirite.png) 0 0 no-repeat;
+          float: left;
+          display: block;
+          width: 63px;
+          height: 63px;
+          position: relative;
+          left: 0;
+          top: 0;
+          background-position: -385px -188px;
+          margin-right: 18px; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .help_sider_gmzx dd {
+          float: left;
+          line-height: 26px;
+          padding-left: 5px;
+          padding-top: 5px;
+          font-size: 14px; }
+          .sl_wrapper .help_content .help_cont_m .help_sider_cont .help_sider_gmzx dd .ui_orange {
+            color: #ef4222;
+            font-size: 14px;
+            margin-right: 5px;
+            cursor: pointer; }
+          .sl_wrapper .help_content .help_cont_m .help_sider_cont .help_sider_gmzx dd .ui_gray {
+            color: #ccc;
+            margin-right: 5px; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont .hot-line {
+        border-bottom: #ddd 1px solid;
+        padding-bottom: 42px;
+        margin-top: 20px; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .hot-line dt {
+          background-position: -446px -188px; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont p {
+        margin-top: 15px;
+        font-size: 12px; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont a {
+        color: #ef4222; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_guanhuai {
+        position: relative; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_guanhuai .gn_ht_sk {
+          width: 16px;
+          height: 16px;
+          background-position: -506px -1px;
+          position: absolute;
+          left: 75px;
+          top: 10px;
+          text-indent: -99999em;
+          overflow: hidden;
+          display: none; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_guanhuai .sd_gn_heart {
+          position: relative;
+          margin-bottom: 10px;
+          border-top: solid 1px #ddd;
+          padding-top: 20px;
+          margin-top: 30px; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_guanhuai .service_guanhuai_about {
+          position: absolute;
+          top: 21px;
+          left: 75px;
+          padding-right: 10px; }
+          .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_guanhuai .service_guanhuai_about .icon {
+            display: block;
+            width: 16px;
+            height: 16px;
+            overflow: hidden;
+            background: url(../static/service_guanhuai.png) no-repeat 0 0;
+            cursor: pointer; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart {
+        border: solid #ddd 1px;
+        width: 100%;
+        height: 140px;
+        background: #f1f1f1;
+        overflow: hidden; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart .i_gn_heart {
+          width: 110px;
+          height: 120px;
+          padding: 10px;
+          background: #fff;
+          line-height: 30px;
+          text-align: center;
+          overflow: hidden;
+          font-size: 12px;
+          float: left; }
+          .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart .i_gn_heart .gn_ht_codeimg {
+            background: url(../static/helpsirite.png) 0 0 no-repeat;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-position: 0 -253px;
+            margin: 0 auto;
+            padding-left: 20px;
+            text-align: left;
+            line-height: 38px;
+            color: #fff; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart h3 {
+          font-weight: normal;
+          font-size: 12px;
+          padding-bottom: 5px; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart em {
+          font-style: normal; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart dd {
+          background: #f1f1f1;
+          width: 110px;
+          padding: 16px;
+          float: left; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart .i_ico_sina {
+          color: #fff;
+          background: url(../static/helpsirite.png) 0 0 no-repeat;
+          background-position: -511px -21px;
+          height: 35px;
+          background-color: #f77766;
+          margin-bottom: 7px;
+          display: block;
+          padding-left: 43px;
+          width: 78px;
+          text-align: left;
+          line-height: 38px; }
+        .sl_wrapper .help_content .help_cont_m .help_sider_cont .gn_heart .i_ico_tencent {
+          color: #fff;
+          background: url(../static/helpsirite.png) 0 0 no-repeat;
+          display: block;
+          background-position: -511px -59px;
+          height: 35px;
+          background-color: #68bbef;
+          padding-left: 43px;
+          width: 78px;
+          text-align: left;
+          line-height: 38px;
+          text-decoration: none;
+          outline: 0; }
+      .sl_wrapper .help_content .help_cont_m .help_sider_cont .c {
+        display: block; }
+    .sl_wrapper .help_content .help_cont_m .fr {
+      float: right; }
+
+.sl_wrapper .wrapper {
+  width: 1190px; }
+
+.footer {
+  padding-top: 40px;
+  background: #fff; }
+  .footer .footer1 {
+    border-bottom: #eaeaea 1px solid;
+    width: 100%;
+    padding-bottom: 40px;
+    height: 47px;
+    background: #fff; }
+    .footer .footer1 .wrapper {
+      width: 1190px;
+      margin: 0 auto;
+      list-style: none; }
+      .footer .footer1 .wrapper li {
+        float: left;
+        width: 24.5%;
+        height: 47px; }
+        .footer .footer1 .wrapper li a {
+          width: 140px;
+          height: 47px;
+          display: block;
+          float: left;
+          line-height: 20px;
+          font-size: 16px;
+          color: #777;
+          text-decoration: none; }
+          .footer .footer1 .wrapper li a i {
+            background: url(https://shop.gionee.com/static/web201310/spirite.png);
+            background-position: 0 -60px;
+            display: block;
+            width: 46px;
+            height: 46px;
+            margin-right: 10px;
+            float: left;
+            line-height: 20px;
+            font-size: 16px;
+            color: #777; }
+          .footer .footer1 .wrapper li a em {
+            font-style: normal;
+            float: left; }
+          .footer .footer1 .wrapper li a .c_change {
+            background-position: -46px -60px; }
+          .footer .footer1 .wrapper li a .c_freesheep {
+            background-position: -92px -60px; }
+          .footer .footer1 .wrapper li a .c_svspoint {
+            background-position: -138px -60px; }
+      .footer .footer1 .wrapper li:hover em {
+        color: #ef4222; }
+  .footer .footer2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1190px;
+    margin: 0 auto;
+    display: table; }
+    .footer .footer2 dl {
+      float: left;
+      width: 18%;
+      line-height: 33px;
+      color: #777; }
+      .footer .footer2 dl dt {
+        font-size: 16px; }
+      .footer .footer2 dl dd {
+        font-size: 12px; }
+        .footer .footer2 dl dd a {
+          color: #777;
+          position: relative;
+          line-height: 25px;
+          height: 25px;
+          display: inline-block;
+          background: 0; }
+          .footer .footer2 dl dd a b {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            overflow: hidden;
+            top: 2px;
+            left: 0;
+            background: url(../static/main.png); }
+        .footer .footer2 dl dd a:hover {
+          color: #ef4222; }
+        .footer .footer2 dl dd .sina {
+          padding-left: 25px; }
+          .footer .footer2 dl dd .sina b {
+            background-position: -379px -68px; }
+        .footer .footer2 dl dd .sina:hover {
+          color: #ef4222; }
+          .footer .footer2 dl dd .sina:hover b {
+            background-position: -379px -93px; }
+        .footer .footer2 dl dd .tencent {
+          padding-left: 25px; }
+          .footer .footer2 dl dd .tencent b {
+            background-position: -406px -68px; }
+        .footer .footer2 dl dd .tencent:hover {
+          color: #ef4222; }
+          .footer .footer2 dl dd .tencent:hover b {
+            background-position: -406px -93px; }
+        .footer .footer2 dl dd .qzone {
+          padding-left: 25px; }
+          .footer .footer2 dl dd .qzone b {
+            background-position: -430px -68px; }
+        .footer .footer2 dl dd .qzone:hover {
+          color: #ef4222; }
+          .footer .footer2 dl dd .qzone:hover b {
+            background-position: -430px -93px; }
+    .footer .footer2 .g_gn_wx {
+      width: 105px;
+      float: right;
+      text-align: center;
+      line-height: 30px;
+      color: #999999;
+      font-size: 12px; }
+      .footer .footer2 .g_gn_wx .ico_gn_weixin {
+        background: url(../static/main.png);
+        display: block;
+        border: #ccc 3px solid;
+        background-position: -279px 0;
+        width: 98px;
+        height: 98px; }
+  .footer .footer3 {
+    background: #333;
+    text-align: left;
+    color: #999;
+    padding: 20px 0; }
+    .footer .footer3 .wrapper {
+      width: 1190px;
+      margin: 0 auto;
+      font-size: 12px; }
+      .footer .footer3 .wrapper .c p {
+        position: relative;
+        z-index: 1;
+        line-height: 45px;
+        margin-bottom: 8px;
+        font-size: 12px; }
+        .footer .footer3 .wrapper .c p a {
+          margin-right: 8px;
+          color: #999999;
+          font-size: 12px; }
+        .footer .footer3 .wrapper .c p span {
+          white-space: nowrap;
+          line-height: 45px;
+          text-align: left; }
+          .footer .footer3 .wrapper .c p span a {
+            margin-right: 8px;
+            text-decoration: none;
+            outline: 0; }
+            .footer .footer3 .wrapper .c p span a img {
+              opacity: 0.8;
+              vertical-align: middle; }
+
+.ui_service {
+  right: 6px;
+  position: fixed;
+  top: 50%;
+  margin-top: -144px;
+  z-index: 100;
+  width: 60px;
+  transform: translateZ(0); }
+  .ui_service .ui_service_item {
+    position: relative;
+    display: block;
+    width: 58px;
+    height: 68px;
+    border: solid 1px #ddd;
+    background: #fff;
+    margin-top: -1px; }
+    .ui_service .ui_service_item .ui_service_lbl {
+      position: relative;
+      z-index: 2;
+      display: block;
+      width: 58px;
+      height: 28px;
+      padding-top: 40px;
+      overflow: hidden;
+      background: #fff;
+      line-height: 25px;
+      font-size: 12px;
+      text-align: center;
+      color: #000; }
+      .ui_service .ui_service_item .ui_service_lbl span {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+        top: 10px;
+        left: 14px;
+        background: url(https://shop.gionee.com/static/web201310/ui_service.png?d=1127) no-repeat 0 0;
+        cursor: pointer; }
+    .ui_service .ui_service_item .online span {
+      background-position: 0 0; }
+    .ui_service .ui_service_item .online:hover {
+      color: #ef4222; }
+      .ui_service .ui_service_item .online:hover span {
+        background-position: 0px -30px; }
+    .ui_service .ui_service_item .help span {
+      background-position: -30px 0; }
+    .ui_service .ui_service_item .help:hover {
+      color: #ef4222; }
+      .ui_service .ui_service_item .help:hover span {
+        background-position: -30px -30px; }
+    .ui_service .ui_service_item .backTop span {
+      background-position: -60px 0; }
+    .ui_service .ui_service_item .backTop:hover {
+      color: #ef4222; }
+      .ui_service .ui_service_item .backTop:hover span {
+        background-position: -60px -30px; }
