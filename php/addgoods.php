@@ -1,5 +1,5 @@
 <?php
-// print "我是insert.php";
+    //接收传进来的数据
     $m1 = $_REQUEST["m1"];
     $m2 = $_REQUEST["m2"];
     $m3 = $_REQUEST["m3"];
